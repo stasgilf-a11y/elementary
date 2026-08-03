@@ -14,8 +14,8 @@ public class MathCalculator {
                 + MathFunction.div(first, second);
     }
 
-    public static double allFourOperations(double sumAndMultiply, double difAndDiv) {
-        return difAndDiv(10, 20) + sumAndMultiply(10, 20);
+    public static double allFourOperations(double first, double second) {
+        return difAndDiv(first, second) + sumAndMultiply(first, second);
     }
 
     public static void main(String[] args) {
