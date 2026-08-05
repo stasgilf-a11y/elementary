@@ -5,13 +5,13 @@ public class Liken {
         int first = 10;
         int second = 9;
 
-        boolean result1 = first>second; /* first больше second? */
+        boolean result = first>second; /* first больше second? */
                 System.out.println(result);
 
-        boolean result2 = first < second;
+        boolean result1 = first < second;
                 System.out.println(result1);
 
-        boolean result3 = first == second;
+        boolean result2 = first == second;
                 System.out.println(result2);
     }
 
