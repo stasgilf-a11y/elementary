@@ -31,7 +31,7 @@
 
         public static void main(String[] args) {
             System.out.println(isEven(7));
-            System.out.println(isPositive(10));
+            System.out.println(isPositive(120));
             System.out.println(notEven(12));
             System.out.println(notPositive(12));
             System.out.println(notEvenAndPositive(3));
