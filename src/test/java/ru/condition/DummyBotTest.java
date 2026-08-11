@@ -30,5 +30,4 @@ class DummyBotTest {
         assertThat(result).isEqualTo(expected);
     }
 
-
 }
