@@ -1,0 +1,25 @@
+package ru.condition;
+
+public class MultipleSwitchWeek {
+    public static int numberOfDay(String name) {
+        return switch (name) {
+
+                case "Понедельник", "Monday" -> 1;
+                case "Вторник", "tuesday" -> 2;
+                case "Среда", "Wednesday" -> 3;
+                case "Четверг", "Thursday" -> 4;
+                case "Пятница", "Friday" -> 5;
+                case "Суббота", "Saturnday" -> 6;
+                case "Воскресенье", "Sunday" -> 7;
+                default -> -1;
+
+        };
+    }
+
+    public static void main(String[] args) {
+        System.out.println(numberOfDay("tuesday"));
+        System.out.println(numberOfDay("Monday"));
+        System.out.println(numberOfDay("Воскресенье"));
+    }
+
+}
