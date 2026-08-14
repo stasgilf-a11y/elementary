@@ -4,8 +4,7 @@ public class Counter {
     public static int sum(int start, int finish) {
         int summa = 0;
         for (int index = start; index <= finish; index++) {
-            summa = summa + index;
-
+            summa += index;
         }
         return summa;
     }
